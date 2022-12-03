@@ -1,5 +1,5 @@
 import React from 'react';
-import {StyleSheet} from 'react-native';
+import {StatusBar, StyleSheet, View} from 'react-native';
 import {SafeAreaView} from 'react-native-safe-area-context';
 import {
   widthPercentageToDP as wp,
@@ -74,21 +74,28 @@ export default function HomeScreen() {
   // Feed screen UI
   // Card Component
   return (
-    <SafeAreaView style={styles.container}>
-      <Animated.View
-        entering={SlideInUp.springify().stiffness(100).damping(17)}
-        style={styles.logo}>
-        <Logo1 style={{transform: [{scale: SCALE_FACTOR}]}} />
-      </Animated.View>
-      <Animated.FlatList
-        layout={Layout.springify()}
-        data={feedData}
-        keyExtractor={item => item.key}
-        showsVerticalScrollIndicator={false}
-        renderItem={renderFilterComponent}
-        contentContainerStyle={{paddingBottom: hp(15), paddingTop: hp(2)}}
+    <>
+      <StatusBar
+        backgroundColor={colors.appBackground}
+        barStyle="dark-content"
       />
-    </SafeAreaView>
+      <SafeAreaView style={styles.container}>
+        <View style={styles.logo}>
+          <Animated.View
+            entering={SlideInUp.springify().stiffness(100).damping(17)}>
+            <Logo1 style={{transform: [{scale: SCALE_FACTOR}]}} />
+          </Animated.View>
+        </View>
+        <Animated.FlatList
+          layout={Layout.springify()}
+          data={feedData}
+          keyExtractor={item => item.key}
+          showsVerticalScrollIndicator={false}
+          renderItem={renderFilterComponent}
+          contentContainerStyle={{paddingBottom: hp(15), paddingTop: hp(2)}}
+        />
+      </SafeAreaView>
+    </>
   );
 }
 

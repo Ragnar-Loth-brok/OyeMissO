@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import {StyleSheet, ScrollView} from 'react-native';
+import {StyleSheet, ScrollView, View} from 'react-native';
 import {SafeAreaView} from 'react-native-safe-area-context';
 import {
   widthPercentageToDP as wp,
@@ -62,11 +62,13 @@ export default function SearchScreen() {
 
   return (
     <SafeAreaView style={styles.container}>
-      <Animated.View
-        layout={Layout}
-        entering={SlideInUp.springify().damping(18)}>
-        <SearchInput search={search} updateSearch={updateSearch} />
-      </Animated.View>
+      <View>
+        <Animated.View
+          layout={Layout}
+          entering={SlideInUp.springify().damping(18)}>
+          <SearchInput search={search} updateSearch={updateSearch} />
+        </Animated.View>
+      </View>
 
       {search ? (
         <SearchTab

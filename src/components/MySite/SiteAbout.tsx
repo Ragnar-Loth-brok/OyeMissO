@@ -32,7 +32,6 @@ const styles = StyleSheet.create({
     width: wp(100),
     paddingHorizontal: wp(4),
     paddingVertical: hp(1),
-    paddingBottom: hp(17),
   },
   heading: {
     fontSize: wp(5.2),
@@ -48,6 +47,6 @@ const styles = StyleSheet.create({
   post: {
     fontSize: wp(3.7),
     lineHeight: hp(3),
-    marginVertical: hp(1),
+    marginTop: hp(1),
   },
 });

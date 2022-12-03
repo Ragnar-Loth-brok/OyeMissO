@@ -97,7 +97,7 @@ export default function ProfileScreen() {
             width={1}
             style={styles.dividerOne}
           />
-         
+
           <View style={styles.subcontainer}>
             <ProfileButton
               title={ProfileScreenData.buttonNames[0]}

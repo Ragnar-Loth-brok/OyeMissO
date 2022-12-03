@@ -1,5 +1,5 @@
 import React, {useCallback, useMemo} from 'react';
-import {StyleSheet, View} from 'react-native';
+import {StyleSheet, Text, View} from 'react-native';
 import {SafeAreaView} from 'react-native-safe-area-context';
 import {Image} from '@rneui/themed';
 import {
@@ -27,6 +27,8 @@ const OpacityHeight = hp(30);
 export default function MySite() {
   const navigation = useNavigation<StackNavigationProp<any>>();
   const opacity = useSharedValue(0);
+
+  console.log(hp(100));
 
   const myPostNavigation = useCallback(() => {
     navigation.navigate('MyPosts');
@@ -122,5 +124,5 @@ const styles = StyleSheet.create({
     height: hp(40),
     backgroundColor: 'rgba(0,0,0,0)',
   },
-  subcontainer: {maxHeight: hp(98)},
+  subcontainer: {maxHeight: hp(90)},
 });

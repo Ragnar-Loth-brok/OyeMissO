@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, {useCallback, useState} from 'react';
 import {Icon} from '@rneui/themed';
 import {Pressable, StyleSheet, View} from 'react-native';
 import {
@@ -23,7 +23,7 @@ import SiteTabButton from './SiteTabButton';
 import SiteAbout from './SiteAbout';
 
 const WIDTH = wp(100);
-const HEIGHT = hp(98);
+const HEIGHT = hp(80);
 
 type Props = {
   myPostNavigation: () => void;
@@ -36,7 +36,20 @@ export default function SiteTabBar({myPostNavigation}: Props) {
   const animateHeight = useSharedValue(HEIGHT);
   const scrollViewHeights = useSharedValue<any>([]);
 
+  const layoutFunc = useCallback((event, id) => {
+    console.log(scrollViewHeights.value, id);
+
+    if (scrollViewHeights.value.length > 2) return null;
+    else if (scrollViewHeights.value.length === id) {
+      const {layout} = event.nativeEvent;
+
+      scrollViewHeights.value.push(layout.height);
+    }
+  }, []);
+
   const heightChange = (value: number) => {
+    // console.log(scrollViewHeights.value);
+
     animateHeight.value = withDelay(
       15,
       withTiming(scrollViewHeights.value[value], {
@@ -121,21 +134,13 @@ export default function SiteTabBar({myPostNavigation}: Props) {
         style={[{width: wp(100)}, heightStyles]}
         pagingEnabled
         scrollEventThrottle={wp(100)}>
-        <View
-          collapsable={false}
-          onLayout={event => {
-            const {layout} = event.nativeEvent;
-            scrollViewHeights.value.push(layout.height);
-          }}>
+        <View collapsable={false} onLayout={event => layoutFunc(event, 0)}>
           <PostsImageView myPostNavigation={myPostNavigation} />
         </View>
         <View
           style={styles.buttonTabContainer}
           collapsable={false}
-          onLayout={event => {
-            const {layout} = event.nativeEvent;
-            scrollViewHeights.value.push(layout.height);
-          }}>
+          onLayout={event => layoutFunc(event, 1)}>
           <SiteTabButton title="Add File or Link" dashedBorder />
           <SiteTabButton title="Watch Our Documentary" dashedBorder={false} />
           <SiteTabButton title="Feed The Children" dashedBorder={false} />
@@ -144,11 +149,9 @@ export default function SiteTabBar({myPostNavigation}: Props) {
           <SiteTabButton title="T-shirts" dashedBorder={false} />
         </View>
         <View
+          style={{paddingBottom: hp(15)}}
           collapsable={false}
-          onLayout={event => {
-            const {layout} = event.nativeEvent;
-            scrollViewHeights.value.push(layout.height);
-          }}>
+          onLayout={event => layoutFunc(event, 2)}>
           <SiteAbout />
         </View>
       </Animated.ScrollView>
