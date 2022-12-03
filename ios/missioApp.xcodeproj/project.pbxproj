@@ -1,0 +1,1030 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00E356F31AD99517003FC87E /* missioAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* missioAppTests.m */; };
+		01C4E0F1D51443D79B574DC5 /* private.svg in Resources */ = {isa = PBXBuildFile; fileRef = 01314852C90B4926B8CB1189 /* private.svg */; };
+		039AF9717D9D474E8C47DBF8 /* Backarrow.svg in Resources */ = {isa = PBXBuildFile; fileRef = E9D43E2EFFDF4300BFF32FB0 /* Backarrow.svg */; };
+		0604F5CF83E244008731EEAA /* heart.svg in Resources */ = {isa = PBXBuildFile; fileRef = 3B96F2F8D94E4B7BA7FEA81B /* heart.svg */; };
+		0840D8E336814EEBBAAD260D /* commentstroke.svg in Resources */ = {isa = PBXBuildFile; fileRef = 6064F919DC334FB6B19935D3 /* commentstroke.svg */; };
+		09AF255701EB4B798FE21F97 /* HelveticaNeue-Heavy.otf in Resources */ = {isa = PBXBuildFile; fileRef = 19329F76AFF3434A85A8427F /* HelveticaNeue-Heavy.otf */; };
+		0C80B921A6F3F58F76C31292 /* libPods-missioApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-missioApp.a */; };
+		0F966D58A9BA43AE8CC2099D /* tabbar.svg in Resources */ = {isa = PBXBuildFile; fileRef = 4A3DEAE51C1244CCBD19562D /* tabbar.svg */; };
+		102603979D374177B2183A23 /* colors.ts in Resources */ = {isa = PBXBuildFile; fileRef = F2A9D7375D3E4D7C94F113C3 /* colors.ts */; };
+		13A921647A14406AA2A43169 /* update.svg in Resources */ = {isa = PBXBuildFile; fileRef = DB81385044F44B0C92EE0A52 /* update.svg */; };
+		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
+		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		166067FC475844DBA9FFB072 /* google.svg in Resources */ = {isa = PBXBuildFile; fileRef = 4386AADC020841A8901A235A /* google.svg */; };
+		188474352F7C4A3C8AEE0E49 /* apple.svg in Resources */ = {isa = PBXBuildFile; fileRef = 58FBF5C1F3604A27A24DA4F3 /* apple.svg */; };
+		19CA2698D12844B589950B7E /* setting.svg in Resources */ = {isa = PBXBuildFile; fileRef = 12CF7DFB1E984AC4A3F4FBB3 /* setting.svg */; };
+		1AC2354B5ECE4F3EA672F846 /* paperclip.svg in Resources */ = {isa = PBXBuildFile; fileRef = 2B63EA9E9BB7463CBA79112D /* paperclip.svg */; };
+		21A06E886C6D4EF09EA9966A /* default.ts in Resources */ = {isa = PBXBuildFile; fileRef = FDD7985099394F439CC83733 /* default.ts */; };
+		29E8ABA819604BFFB0BB91AC /* avatar9.svg in Resources */ = {isa = PBXBuildFile; fileRef = ADE995C6666F4952A14B4141 /* avatar9.svg */; };
+		2C160DB5CC5844A3BBA6151B /* appLogo.svg in Resources */ = {isa = PBXBuildFile; fileRef = D1F03221B69C49CA99410328 /* appLogo.svg */; };
+		2C426CA0CCC84851B01EA1E9 /* avatar8.svg in Resources */ = {isa = PBXBuildFile; fileRef = CA5C5AC078D44567A1AEC5C6 /* avatar8.svg */; };
+		2DF13BA214964171A23F1E6A /* config.json in Resources */ = {isa = PBXBuildFile; fileRef = 88EABAFD1F78470EB0402759 /* config.json */; };
+		2E07A14FCB204D6BAFA4200F /* HelveticaNeue-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7E9D2038EE8246D79C8B3DBB /* HelveticaNeue-Light.otf */; };
+		315563E36DB84458B7000243 /* avatars.ts in Resources */ = {isa = PBXBuildFile; fileRef = 2DDCEDA32B1D4446BC8841BA /* avatars.ts */; };
+		3A2E1C8A1B804D0E8AA33718 /* messanger.svg in Resources */ = {isa = PBXBuildFile; fileRef = 0B9DF3C963094F2C8926B254 /* messanger.svg */; };
+		3AFF3A4FCDFD4AAF95C45EB4 /* forgotlogo.svg in Resources */ = {isa = PBXBuildFile; fileRef = DDF2F7FAD7E844F8BB3B9C43 /* forgotlogo.svg */; };
+		3BB89828CD424E3AB339EA53 /* avatar2.svg in Resources */ = {isa = PBXBuildFile; fileRef = C9679E36996E418FBE520A8F /* avatar2.svg */; };
+		3FFE0AB30C8E4AFE8B512900 /* avatar6.svg in Resources */ = {isa = PBXBuildFile; fileRef = 8EDEE14DC7F445F8848E3655 /* avatar6.svg */; };
+		44050B1AA07E4D0D9E968B34 /* Document.svg in Resources */ = {isa = PBXBuildFile; fileRef = A5D700C284564BD28A0EE6EA /* Document.svg */; };
+		4632D88365B442AEB83EA630 /* AddIcon.tsx in Resources */ = {isa = PBXBuildFile; fileRef = A87CEF32C98C4D8BAD8CD530 /* AddIcon.tsx */; };
+		495D8BC080CD44749D0071E3 /* handraise.svg in Resources */ = {isa = PBXBuildFile; fileRef = D1D0CE65987F4FB689D590C8 /* handraise.svg */; };
+		49ACD77838C94125B858F52A /* handpray.svg in Resources */ = {isa = PBXBuildFile; fileRef = 72F0A85DAA1E4730B80AE0C3 /* handpray.svg */; };
+		4BB6086F8E5D4292A57B1E8B /* delete.svg in Resources */ = {isa = PBXBuildFile; fileRef = 9DB01243D691493ABE7830F2 /* delete.svg */; };
+		4C6F0599E68840C3BC82617F /* avatar7.svg in Resources */ = {isa = PBXBuildFile; fileRef = 6714221E872B47B5916B07B1 /* avatar7.svg */; };
+		4E971E0DC7C648F291FD3B5C /* SiteIcon.tsx in Resources */ = {isa = PBXBuildFile; fileRef = 8B408738F00741EBAF306F24 /* SiteIcon.tsx */; };
+		5468BA5A40AB45F0AE8C785F /* public.svg in Resources */ = {isa = PBXBuildFile; fileRef = F8CEE396403E4996A4A15664 /* public.svg */; };
+		5A8AB3762B134493B2CB26CD /* SearchIcon.tsx in Resources */ = {isa = PBXBuildFile; fileRef = 4E18182C5E504FA0918B6A6B /* SearchIcon.tsx */; };
+		6634C01E41EF4CFAB909E380 /* add.svg in Resources */ = {isa = PBXBuildFile; fileRef = B8F7E60A65884A858603B45F /* add.svg */; };
+		6C992A9FC481438982288B93 /* HomeIcon.tsx in Resources */ = {isa = PBXBuildFile; fileRef = 12F9BE62983641378908198B /* HomeIcon.tsx */; };
+		6CECAC39A6FE44A3A9C99FB1 /* detail.svg in Resources */ = {isa = PBXBuildFile; fileRef = 258F8624D5A740C1AD884A5B /* detail.svg */; };
+		6D2F2798C1534B9DB267D2FE /* identity.svg in Resources */ = {isa = PBXBuildFile; fileRef = 1A98883F402F45569A68CCA8 /* identity.svg */; };
+		6EF88B53F0D446B78A30E1CC /* Successlogo.svg in Resources */ = {isa = PBXBuildFile; fileRef = 05D8792304BE439884B9AF44 /* Successlogo.svg */; };
+		6F67F1FDE6644F49938C637B /* tabbar2.svg in Resources */ = {isa = PBXBuildFile; fileRef = 115DE03F448E425B84FD331C /* tabbar2.svg */; };
+		73AFE32014594D22BF158755 /* HelveticaNeue-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = E9D9896990FE4F7F9C2799CE /* HelveticaNeue-Thin.otf */; };
+		7699B88040F8A987B510C191 /* libPods-missioApp-missioAppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-missioApp-missioAppTests.a */; };
+		7CAAE29AEB744953A0A4591D /* mail.svg in Resources */ = {isa = PBXBuildFile; fileRef = 3BB7755BCFCA493086FF17D3 /* mail.svg */; };
+		8132425A162F4A0C85380CA0 /* Publish.svg in Resources */ = {isa = PBXBuildFile; fileRef = B54BBD8C40464AEFAC9B7EAE /* Publish.svg */; };
+		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		837E1D5C068E4DA586D1B8BC /* watch.svg in Resources */ = {isa = PBXBuildFile; fileRef = 852D8E055F694849BF1ADF75 /* watch.svg */; };
+		89A7043F75EB4554B0870A70 /* closeeye.svg in Resources */ = {isa = PBXBuildFile; fileRef = B29A655CCFD54B51AFF0C0A0 /* closeeye.svg */; };
+		89B3ED54288C44D6B8EE5BD5 /* reply.svg in Resources */ = {isa = PBXBuildFile; fileRef = F3A063E4AD0D4C26968ACDE6 /* reply.svg */; };
+		8A40FD5F533E4391A5492560 /* commentgrey.svg in Resources */ = {isa = PBXBuildFile; fileRef = FE38D61C0B8149118BC527BC /* commentgrey.svg */; };
+		914D21BA10794FEC82F2378C /* Frame.svg in Resources */ = {isa = PBXBuildFile; fileRef = E29B9CFA8AE94999A2A478D3 /* Frame.svg */; };
+		9183E3EE8C99494CB60917CF /* person.svg in Resources */ = {isa = PBXBuildFile; fileRef = 61F18CBA65204530ACD935C2 /* person.svg */; };
+		947F07A229BB414491551A4A /* eye.svg in Resources */ = {isa = PBXBuildFile; fileRef = DC8E3B52946D4A1895C36B76 /* eye.svg */; };
+		985D408ABFB543CE9FF5A2BE /* logo1.svg in Resources */ = {isa = PBXBuildFile; fileRef = E4C4C14DD11A403B9A149244 /* logo1.svg */; };
+		9DABA370F16746DDA6691786 /* avtardata.ts in Resources */ = {isa = PBXBuildFile; fileRef = 1535A6465A884731B9FE5E9F /* avtardata.ts */; };
+		9F93F4D60D6F43C69F1FCAEE /* cardlogo.svg in Resources */ = {isa = PBXBuildFile; fileRef = 49EFF759F48E40EF835517DC /* cardlogo.svg */; };
+		A1E935A5F9D24F169450D0D0 /* carddata.tsx in Resources */ = {isa = PBXBuildFile; fileRef = BA11BDCE098C44E8BD40D1A2 /* carddata.tsx */; };
+		A30EC89B326548DFB7E63ECE /* placeholder.svg in Resources */ = {isa = PBXBuildFile; fileRef = 4149F1D2DFD449768B7EAF6B /* placeholder.svg */; };
+		A6BD6C7CB53D4DB9BFD55ECA /* chunk.ts in Resources */ = {isa = PBXBuildFile; fileRef = DB256028CD8F4FE8B654BD16 /* chunk.ts */; };
+		AC19C5D4A10D41E994714EFB /* Userlogo.svg in Resources */ = {isa = PBXBuildFile; fileRef = 44BD403718834A1C9DD634D2 /* Userlogo.svg */; };
+		AF1E1CF9A5D547FC97167570 /* docu.svg in Resources */ = {isa = PBXBuildFile; fileRef = AAC4298E3BE1479C9577EF2D /* docu.svg */; };
+		B122EAA8061E4C5B8B6B2DFA /* HelveticaNeue-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6764E5887A95452D80950F2F /* HelveticaNeue-Medium.otf */; };
+		B52A816A11A544DB96916D31 /* user.svg in Resources */ = {isa = PBXBuildFile; fileRef = 88C5A107E9474D0990410814 /* user.svg */; };
+		B6DF4BC56ABF4765B655F38E /* constants.ts in Resources */ = {isa = PBXBuildFile; fileRef = D08327A66BC8408EB0501E01 /* constants.ts */; };
+		B773257907AE45D19AFD12E2 /* avatar5.svg in Resources */ = {isa = PBXBuildFile; fileRef = CF1B8D504EE743418E8863D9 /* avatar5.svg */; };
+		BAC01C979F404521B6EBCDD4 /* Sentlogo.svg in Resources */ = {isa = PBXBuildFile; fileRef = A096569F36784D34830A54A3 /* Sentlogo.svg */; };
+		BF1469389AFC4D17B8DBCDD1 /* BellIcon.tsx in Resources */ = {isa = PBXBuildFile; fileRef = 928306011ADC4D8CA68C5B80 /* BellIcon.tsx */; };
+		C1D4E435B5F34C3C9F1140DD /* Messege.svg in Resources */ = {isa = PBXBuildFile; fileRef = AE05F29344CC4F018D5F4A78 /* Messege.svg */; };
+		C4A37547C56B4D478B139994 /* icons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EEA94E7BE4AC4824AB6F2513 /* icons.ttf */; };
+		C5604EFAF8104F29B1F03B32 /* placeholder1.svg in Resources */ = {isa = PBXBuildFile; fileRef = 5708EBFFD64440FD80FD8FA3 /* placeholder1.svg */; };
+		C68F78F11CEB41F7842A6D95 /* avatar3.svg in Resources */ = {isa = PBXBuildFile; fileRef = AEE10CFBFD814353BBE11481 /* avatar3.svg */; };
+		C7768F0F64DF4DF9A3A3B466 /* icon-font.js in Resources */ = {isa = PBXBuildFile; fileRef = 334B7B6DF7B144B88A626912 /* icon-font.js */; };
+		C9511651311B4FF19A017AED /* HelveticaNeue-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = C3F7A394668E4E8EB253FD6F /* HelveticaNeue-Bold.otf */; };
+		CC28B85DA38248DE9FEEA8FC /* HelveticaNeue-UltraLight.otf in Resources */ = {isa = PBXBuildFile; fileRef = DC17E7675C054BC1A620A608 /* HelveticaNeue-UltraLight.otf */; };
+		CD26357F2E9F42649BD74141 /* verified.svg in Resources */ = {isa = PBXBuildFile; fileRef = 48F944926B7B4F969B6FA401 /* verified.svg */; };
+		D6A60BE0FFAB4EB391FC86C8 /* TabBarSVG.tsx in Resources */ = {isa = PBXBuildFile; fileRef = B34A63640F224FFFB1F9E53B /* TabBarSVG.tsx */; };
+		DF0E4850AB044489A5467CC3 /* clock.svg in Resources */ = {isa = PBXBuildFile; fileRef = FE62A336D9BC4AF88593F1B8 /* clock.svg */; };
+		E3DF435372464AACABFD2971 /* logo.svg in Resources */ = {isa = PBXBuildFile; fileRef = 5C6031EFBF4D4EFCBB31E87C /* logo.svg */; };
+		E3E0518370824757AF880FCF /* avatar4.svg in Resources */ = {isa = PBXBuildFile; fileRef = BF2B5B20DB5C4E64A20F4623 /* avatar4.svg */; };
+		EB3A5C6BC85948AC97650424 /* avatar1.svg in Resources */ = {isa = PBXBuildFile; fileRef = 5772799972A7415BB6702382 /* avatar1.svg */; };
+		ED9CBFC8BB904B588AFAD99E /* gave.svg in Resources */ = {isa = PBXBuildFile; fileRef = 13A3FD9A41664D9D80D3389E /* gave.svg */; };
+		EDE51C3CD11B4F9594ACE1FE /* outlinebill.svg in Resources */ = {isa = PBXBuildFile; fileRef = 2F0DAD1545934521AD26160B /* outlinebill.svg */; };
+		F504792340F6483991ACE81C /* resetlogo.svg in Resources */ = {isa = PBXBuildFile; fileRef = F42EA941448B4C069E194B43 /* resetlogo.svg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		00E356F41AD99517003FC87E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
+			remoteInfo = missioApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00E356EE1AD99517003FC87E /* missioAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = missioAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* missioAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = missioAppTests.m; sourceTree = "<group>"; };
+		01314852C90B4926B8CB1189 /* private.svg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = private.svg; path = ../src/assets/images/private.svg; sourceTree = "<group>"; };
+		05D8792304BE439884B9AF44 /* Successlogo.svg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Successlogo.svg; path = ../src/assets/images/Successlogo.svg; sourceTree = "<group>"; };
+		0B9DF3C963094F2C8926B254 /* messanger.svg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = messanger.svg; path = ../src/assets/icons/messanger.svg; sourceTree = "<group>"; };
+		115DE03F448E425B84FD331C /* tabbar2.svg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = tabbar2.svg; path = ../src/assets/images/tabbar2.svg; sourceTree = "<group>"; };
+		12CF7DFB1E984AC4A3F4FBB3 /* setting.svg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = setting.svg; path = ../src/assets/icons/setting.svg; sourceTree = "<group>"; };
+		12F9BE62983641378908198B /* HomeIcon.tsx */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = HomeIcon.tsx; path = ../src/assets/icons/tabIcons/HomeIcon.tsx; sourceTree = "<group>"; };
+		13A3FD9A41664D9D80D3389E /* gave.svg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = gave.svg; path = ../src/assets/images/gave.svg; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* missioApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = missioApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = missioApp/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = missioApp/AppDelegate.mm; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = missioApp/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = missioApp/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = missioApp/main.m; sourceTree = "<group>"; };
+		1535A6465A884731B9FE5E9F /* avtardata.ts */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = avtardata.ts; path = ../src/assets/avtardata.ts; sourceTree = "<group>"; };
+		19329F76AFF3434A85A8427F /* HelveticaNeue-Heavy.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "HelveticaNeue-Heavy.otf"; path = "../src/assets/fonts/HelveticaNeue-Heavy.otf"; sourceTree = "<group>"; };
+		19F6CBCC0A4E27FBF8BF4A61 /* libPods-missioApp-missioAppTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-missioApp-missioAppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A98883F402F45569A68CCA8 /* identity.svg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = identity.svg; path = ../src/assets/images/identity.svg; sourceTree = "<group>"; };
+		258F8624D5A740C1AD884A5B /* detail.svg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = detail.svg; path = ../src/assets/icons/detail.svg; sourceTree = "<group>"; };
+		2B63EA9E9BB7463CBA79112D /* paperclip.svg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = paperclip.svg; path = ../src/assets/icons/paperclip.svg; sourceTree = "<group>"; };
+		2DDCEDA32B1D4446BC8841BA /* avatars.ts */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = avatars.ts; path = ../src/assets/images/avatars/avatars.ts; sourceTree = "<group>"; };
+		2F0DAD1545934521AD26160B /* outlinebill.svg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = outlinebill.svg; path = ../src/assets/icons/outlinebill.svg; sourceTree = "<group>"; };
+		334B7B6DF7B144B88A626912 /* icon-font.js */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "icon-font.js"; path = "../src/assets/icons/icon-font.js"; sourceTree = "<group>"; };
+		3B4392A12AC88292D35C810B /* Pods-missioApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-missioApp.debug.xcconfig"; path = "Target Support Files/Pods-missioApp/Pods-missioApp.debug.xcconfig"; sourceTree = "<group>"; };
+		3B96F2F8D94E4B7BA7FEA81B /* heart.svg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = heart.svg; path = ../src/assets/icons/heart.svg; sourceTree = "<group>"; };
+		3BB7755BCFCA493086FF17D3 /* mail.svg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = mail.svg; path = ../src/assets/icons/mail.svg; sourceTree = "<group>"; };
+		4149F1D2DFD449768B7EAF6B /* placeholder.svg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = placeholder.svg; path = ../src/assets/images/placeholder.svg; sourceTree = "<group>"; };
+		4386AADC020841A8901A235A /* google.svg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = google.svg; path = ../src/assets/images/google.svg; sourceTree = "<group>"; };
+		44BD403718834A1C9DD634D2 /* Userlogo.svg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Userlogo.svg; path = ../src/assets/images/Userlogo.svg; sourceTree = "<group>"; };
+		48F944926B7B4F969B6FA401 /* verified.svg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = verified.svg; path = ../src/assets/images/verified.svg; sourceTree = "<group>"; };
+		49EFF759F48E40EF835517DC /* cardlogo.svg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = cardlogo.svg; path = ../src/assets/images/cardlogo.svg; sourceTree = "<group>"; };
+		4A3DEAE51C1244CCBD19562D /* tabbar.svg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = tabbar.svg; path = ../src/assets/images/tabbar.svg; sourceTree = "<group>"; };
+		4E18182C5E504FA0918B6A6B /* SearchIcon.tsx */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = SearchIcon.tsx; path = ../src/assets/icons/tabIcons/SearchIcon.tsx; sourceTree = "<group>"; };
+		5708EBFFD64440FD80FD8FA3 /* placeholder1.svg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = placeholder1.svg; path = ../src/assets/icons/addpost/placeholder1.svg; sourceTree = "<group>"; };
+		5709B34CF0A7D63546082F79 /* Pods-missioApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-missioApp.release.xcconfig"; path = "Target Support Files/Pods-missioApp/Pods-missioApp.release.xcconfig"; sourceTree = "<group>"; };
+		5772799972A7415BB6702382 /* avatar1.svg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = avatar1.svg; path = ../src/assets/images/avatars/avatar1.svg; sourceTree = "<group>"; };
+		58FBF5C1F3604A27A24DA4F3 /* apple.svg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = apple.svg; path = ../src/assets/images/apple.svg; sourceTree = "<group>"; };
+		5B7EB9410499542E8C5724F5 /* Pods-missioApp-missioAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-missioApp-missioAppTests.debug.xcconfig"; path = "Target Support Files/Pods-missioApp-missioAppTests/Pods-missioApp-missioAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5C6031EFBF4D4EFCBB31E87C /* logo.svg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = logo.svg; path = ../src/assets/images/logo.svg; sourceTree = "<group>"; };
+		5DCACB8F33CDC322A6C60F78 /* libPods-missioApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-missioApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6064F919DC334FB6B19935D3 /* commentstroke.svg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = commentstroke.svg; path = ../src/assets/icons/commentstroke.svg; sourceTree = "<group>"; };
+		61F18CBA65204530ACD935C2 /* person.svg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = person.svg; path = ../src/assets/icons/person.svg; sourceTree = "<group>"; };
+		6714221E872B47B5916B07B1 /* avatar7.svg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = avatar7.svg; path = ../src/assets/images/avatars/avatar7.svg; sourceTree = "<group>"; };
+		6764E5887A95452D80950F2F /* HelveticaNeue-Medium.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "HelveticaNeue-Medium.otf"; path = "../src/assets/fonts/HelveticaNeue-Medium.otf"; sourceTree = "<group>"; };
+		72F0A85DAA1E4730B80AE0C3 /* handpray.svg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = handpray.svg; path = ../src/assets/icons/handpray.svg; sourceTree = "<group>"; };
+		7E9D2038EE8246D79C8B3DBB /* HelveticaNeue-Light.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "HelveticaNeue-Light.otf"; path = "../src/assets/fonts/HelveticaNeue-Light.otf"; sourceTree = "<group>"; };
+		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = missioApp/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		852D8E055F694849BF1ADF75 /* watch.svg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = watch.svg; path = ../src/assets/icons/watch.svg; sourceTree = "<group>"; };
+		88C5A107E9474D0990410814 /* user.svg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = user.svg; path = ../src/assets/images/user.svg; sourceTree = "<group>"; };
+		88EABAFD1F78470EB0402759 /* config.json */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = config.json; path = ../src/assets/icons/config.json; sourceTree = "<group>"; };
+		89C6BE57DB24E9ADA2F236DE /* Pods-missioApp-missioAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-missioApp-missioAppTests.release.xcconfig"; path = "Target Support Files/Pods-missioApp-missioAppTests/Pods-missioApp-missioAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		8B408738F00741EBAF306F24 /* SiteIcon.tsx */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = SiteIcon.tsx; path = ../src/assets/icons/tabIcons/SiteIcon.tsx; sourceTree = "<group>"; };
+		8EDEE14DC7F445F8848E3655 /* avatar6.svg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = avatar6.svg; path = ../src/assets/images/avatars/avatar6.svg; sourceTree = "<group>"; };
+		928306011ADC4D8CA68C5B80 /* BellIcon.tsx */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = BellIcon.tsx; path = ../src/assets/icons/tabIcons/BellIcon.tsx; sourceTree = "<group>"; };
+		9DB01243D691493ABE7830F2 /* delete.svg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = delete.svg; path = ../src/assets/images/delete.svg; sourceTree = "<group>"; };
+		A096569F36784D34830A54A3 /* Sentlogo.svg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Sentlogo.svg; path = ../src/assets/images/Sentlogo.svg; sourceTree = "<group>"; };
+		A5D700C284564BD28A0EE6EA /* Document.svg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Document.svg; path = ../src/assets/images/Document.svg; sourceTree = "<group>"; };
+		A87CEF32C98C4D8BAD8CD530 /* AddIcon.tsx */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = AddIcon.tsx; path = ../src/assets/icons/tabIcons/AddIcon.tsx; sourceTree = "<group>"; };
+		AAC4298E3BE1479C9577EF2D /* docu.svg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = docu.svg; path = ../src/assets/icons/docu.svg; sourceTree = "<group>"; };
+		ADE995C6666F4952A14B4141 /* avatar9.svg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = avatar9.svg; path = ../src/assets/images/avatars/avatar9.svg; sourceTree = "<group>"; };
+		AE05F29344CC4F018D5F4A78 /* Messege.svg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Messege.svg; path = ../src/assets/images/Messege.svg; sourceTree = "<group>"; };
+		AEE10CFBFD814353BBE11481 /* avatar3.svg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = avatar3.svg; path = ../src/assets/images/avatars/avatar3.svg; sourceTree = "<group>"; };
+		B29A655CCFD54B51AFF0C0A0 /* closeeye.svg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = closeeye.svg; path = ../src/assets/icons/closeeye.svg; sourceTree = "<group>"; };
+		B34A63640F224FFFB1F9E53B /* TabBarSVG.tsx */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = TabBarSVG.tsx; path = ../src/assets/images/TabBarSVG.tsx; sourceTree = "<group>"; };
+		B54BBD8C40464AEFAC9B7EAE /* Publish.svg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Publish.svg; path = ../src/assets/images/Publish.svg; sourceTree = "<group>"; };
+		B8F7E60A65884A858603B45F /* add.svg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = add.svg; path = ../src/assets/icons/addpost/add.svg; sourceTree = "<group>"; };
+		BA11BDCE098C44E8BD40D1A2 /* carddata.tsx */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = carddata.tsx; path = ../src/assets/carddata.tsx; sourceTree = "<group>"; };
+		BF2B5B20DB5C4E64A20F4623 /* avatar4.svg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = avatar4.svg; path = ../src/assets/images/avatars/avatar4.svg; sourceTree = "<group>"; };
+		C3F7A394668E4E8EB253FD6F /* HelveticaNeue-Bold.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "HelveticaNeue-Bold.otf"; path = "../src/assets/fonts/HelveticaNeue-Bold.otf"; sourceTree = "<group>"; };
+		C9679E36996E418FBE520A8F /* avatar2.svg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = avatar2.svg; path = ../src/assets/images/avatars/avatar2.svg; sourceTree = "<group>"; };
+		CA5C5AC078D44567A1AEC5C6 /* avatar8.svg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = avatar8.svg; path = ../src/assets/images/avatars/avatar8.svg; sourceTree = "<group>"; };
+		CF1B8D504EE743418E8863D9 /* avatar5.svg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = avatar5.svg; path = ../src/assets/images/avatars/avatar5.svg; sourceTree = "<group>"; };
+		D08327A66BC8408EB0501E01 /* constants.ts */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = constants.ts; path = ../src/assets/constants.ts; sourceTree = "<group>"; };
+		D1D0CE65987F4FB689D590C8 /* handraise.svg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = handraise.svg; path = ../src/assets/icons/handraise.svg; sourceTree = "<group>"; };
+		D1F03221B69C49CA99410328 /* appLogo.svg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = appLogo.svg; path = ../src/assets/images/appLogo.svg; sourceTree = "<group>"; };
+		DB256028CD8F4FE8B654BD16 /* chunk.ts */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = chunk.ts; path = ../src/assets/chunk.ts; sourceTree = "<group>"; };
+		DB81385044F44B0C92EE0A52 /* update.svg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = update.svg; path = ../src/assets/images/update.svg; sourceTree = "<group>"; };
+		DC17E7675C054BC1A620A608 /* HelveticaNeue-UltraLight.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "HelveticaNeue-UltraLight.otf"; path = "../src/assets/fonts/HelveticaNeue-UltraLight.otf"; sourceTree = "<group>"; };
+		DC8E3B52946D4A1895C36B76 /* eye.svg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = eye.svg; path = ../src/assets/icons/eye.svg; sourceTree = "<group>"; };
+		DDF2F7FAD7E844F8BB3B9C43 /* forgotlogo.svg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = forgotlogo.svg; path = ../src/assets/images/forgotlogo.svg; sourceTree = "<group>"; };
+		E29B9CFA8AE94999A2A478D3 /* Frame.svg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Frame.svg; path = ../src/assets/icons/Frame.svg; sourceTree = "<group>"; };
+		E4C4C14DD11A403B9A149244 /* logo1.svg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = logo1.svg; path = ../src/assets/icons/logo1.svg; sourceTree = "<group>"; };
+		E9D43E2EFFDF4300BFF32FB0 /* Backarrow.svg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Backarrow.svg; path = ../src/assets/icons/Backarrow.svg; sourceTree = "<group>"; };
+		E9D9896990FE4F7F9C2799CE /* HelveticaNeue-Thin.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "HelveticaNeue-Thin.otf"; path = "../src/assets/fonts/HelveticaNeue-Thin.otf"; sourceTree = "<group>"; };
+		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		EEA94E7BE4AC4824AB6F2513 /* icons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = icons.ttf; path = ../src/assets/fonts/icons.ttf; sourceTree = "<group>"; };
+		F2A9D7375D3E4D7C94F113C3 /* colors.ts */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = colors.ts; path = ../src/assets/colors.ts; sourceTree = "<group>"; };
+		F3A063E4AD0D4C26968ACDE6 /* reply.svg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = reply.svg; path = ../src/assets/icons/reply.svg; sourceTree = "<group>"; };
+		F42EA941448B4C069E194B43 /* resetlogo.svg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = resetlogo.svg; path = ../src/assets/images/resetlogo.svg; sourceTree = "<group>"; };
+		F8CEE396403E4996A4A15664 /* public.svg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = public.svg; path = ../src/assets/images/public.svg; sourceTree = "<group>"; };
+		FDD7985099394F439CC83733 /* default.ts */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = default.ts; path = ../src/assets/localization/default.ts; sourceTree = "<group>"; };
+		FE38D61C0B8149118BC527BC /* commentgrey.svg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = commentgrey.svg; path = ../src/assets/icons/commentgrey.svg; sourceTree = "<group>"; };
+		FE62A336D9BC4AF88593F1B8 /* clock.svg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = clock.svg; path = ../src/assets/images/clock.svg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00E356EB1AD99517003FC87E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7699B88040F8A987B510C191 /* libPods-missioApp-missioAppTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8C1A680F5B00A75B9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C80B921A6F3F58F76C31292 /* libPods-missioApp.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00E356EF1AD99517003FC87E /* missioAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F21AD99517003FC87E /* missioAppTests.m */,
+				00E356F01AD99517003FC87E /* Supporting Files */,
+			);
+			path = missioAppTests;
+			sourceTree = "<group>";
+		};
+		00E356F01AD99517003FC87E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F11AD99517003FC87E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		13B07FAE1A68108700A75B9A /* missioApp */ = {
+			isa = PBXGroup;
+			children = (
+				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
+				13B07FB01A68108700A75B9A /* AppDelegate.mm */,
+				13B07FB51A68108700A75B9A /* Images.xcassets */,
+				13B07FB61A68108700A75B9A /* Info.plist */,
+				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
+				13B07FB71A68108700A75B9A /* main.m */,
+			);
+			name = missioApp;
+			sourceTree = "<group>";
+		};
+		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
+				5DCACB8F33CDC322A6C60F78 /* libPods-missioApp.a */,
+				19F6CBCC0A4E27FBF8BF4A61 /* libPods-missioApp-missioAppTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		83CBB9F61A601CBA00E9B192 = {
+			isa = PBXGroup;
+			children = (
+				13B07FAE1A68108700A75B9A /* missioApp */,
+				832341AE1AAA6A7D00B99B32 /* Libraries */,
+				00E356EF1AD99517003FC87E /* missioAppTests */,
+				83CBBA001A601CBA00E9B192 /* Products */,
+				2D16E6871FA4F8E400B85C8A /* Frameworks */,
+				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				9DD94094C89F4DA29E0CD599 /* Resources */,
+			);
+			indentWidth = 2;
+			sourceTree = "<group>";
+			tabWidth = 2;
+			usesTabs = 0;
+		};
+		83CBBA001A601CBA00E9B192 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13B07F961A680F5B00A75B9A /* missioApp.app */,
+				00E356EE1AD99517003FC87E /* missioAppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9DD94094C89F4DA29E0CD599 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C3F7A394668E4E8EB253FD6F /* HelveticaNeue-Bold.otf */,
+				19329F76AFF3434A85A8427F /* HelveticaNeue-Heavy.otf */,
+				7E9D2038EE8246D79C8B3DBB /* HelveticaNeue-Light.otf */,
+				6764E5887A95452D80950F2F /* HelveticaNeue-Medium.otf */,
+				E9D9896990FE4F7F9C2799CE /* HelveticaNeue-Thin.otf */,
+				DC17E7675C054BC1A620A608 /* HelveticaNeue-UltraLight.otf */,
+				EEA94E7BE4AC4824AB6F2513 /* icons.ttf */,
+				E9D43E2EFFDF4300BFF32FB0 /* Backarrow.svg */,
+				B29A655CCFD54B51AFF0C0A0 /* closeeye.svg */,
+				FE38D61C0B8149118BC527BC /* commentgrey.svg */,
+				6064F919DC334FB6B19935D3 /* commentstroke.svg */,
+				88EABAFD1F78470EB0402759 /* config.json */,
+				AAC4298E3BE1479C9577EF2D /* docu.svg */,
+				DC8E3B52946D4A1895C36B76 /* eye.svg */,
+				72F0A85DAA1E4730B80AE0C3 /* handpray.svg */,
+				D1D0CE65987F4FB689D590C8 /* handraise.svg */,
+				3BB7755BCFCA493086FF17D3 /* mail.svg */,
+				0B9DF3C963094F2C8926B254 /* messanger.svg */,
+				2F0DAD1545934521AD26160B /* outlinebill.svg */,
+				2B63EA9E9BB7463CBA79112D /* paperclip.svg */,
+				61F18CBA65204530ACD935C2 /* person.svg */,
+				F3A063E4AD0D4C26968ACDE6 /* reply.svg */,
+				12CF7DFB1E984AC4A3F4FBB3 /* setting.svg */,
+				852D8E055F694849BF1ADF75 /* watch.svg */,
+				49EFF759F48E40EF835517DC /* cardlogo.svg */,
+				A5D700C284564BD28A0EE6EA /* Document.svg */,
+				A096569F36784D34830A54A3 /* Sentlogo.svg */,
+				05D8792304BE439884B9AF44 /* Successlogo.svg */,
+				88C5A107E9474D0990410814 /* user.svg */,
+				44BD403718834A1C9DD634D2 /* Userlogo.svg */,
+				1535A6465A884731B9FE5E9F /* avtardata.ts */,
+				BA11BDCE098C44E8BD40D1A2 /* carddata.tsx */,
+				DB256028CD8F4FE8B654BD16 /* chunk.ts */,
+				F2A9D7375D3E4D7C94F113C3 /* colors.ts */,
+				D08327A66BC8408EB0501E01 /* constants.ts */,
+				E29B9CFA8AE94999A2A478D3 /* Frame.svg */,
+				B8F7E60A65884A858603B45F /* add.svg */,
+				5708EBFFD64440FD80FD8FA3 /* placeholder1.svg */,
+				258F8624D5A740C1AD884A5B /* detail.svg */,
+				3B96F2F8D94E4B7BA7FEA81B /* heart.svg */,
+				334B7B6DF7B144B88A626912 /* icon-font.js */,
+				E4C4C14DD11A403B9A149244 /* logo1.svg */,
+				A87CEF32C98C4D8BAD8CD530 /* AddIcon.tsx */,
+				928306011ADC4D8CA68C5B80 /* BellIcon.tsx */,
+				12F9BE62983641378908198B /* HomeIcon.tsx */,
+				4E18182C5E504FA0918B6A6B /* SearchIcon.tsx */,
+				8B408738F00741EBAF306F24 /* SiteIcon.tsx */,
+				AE05F29344CC4F018D5F4A78 /* Messege.svg */,
+				B54BBD8C40464AEFAC9B7EAE /* Publish.svg */,
+				B34A63640F224FFFB1F9E53B /* TabBarSVG.tsx */,
+				D1F03221B69C49CA99410328 /* appLogo.svg */,
+				58FBF5C1F3604A27A24DA4F3 /* apple.svg */,
+				5772799972A7415BB6702382 /* avatar1.svg */,
+				C9679E36996E418FBE520A8F /* avatar2.svg */,
+				AEE10CFBFD814353BBE11481 /* avatar3.svg */,
+				BF2B5B20DB5C4E64A20F4623 /* avatar4.svg */,
+				CF1B8D504EE743418E8863D9 /* avatar5.svg */,
+				8EDEE14DC7F445F8848E3655 /* avatar6.svg */,
+				6714221E872B47B5916B07B1 /* avatar7.svg */,
+				CA5C5AC078D44567A1AEC5C6 /* avatar8.svg */,
+				ADE995C6666F4952A14B4141 /* avatar9.svg */,
+				2DDCEDA32B1D4446BC8841BA /* avatars.ts */,
+				FE62A336D9BC4AF88593F1B8 /* clock.svg */,
+				9DB01243D691493ABE7830F2 /* delete.svg */,
+				DDF2F7FAD7E844F8BB3B9C43 /* forgotlogo.svg */,
+				13A3FD9A41664D9D80D3389E /* gave.svg */,
+				4386AADC020841A8901A235A /* google.svg */,
+				1A98883F402F45569A68CCA8 /* identity.svg */,
+				5C6031EFBF4D4EFCBB31E87C /* logo.svg */,
+				4149F1D2DFD449768B7EAF6B /* placeholder.svg */,
+				01314852C90B4926B8CB1189 /* private.svg */,
+				F8CEE396403E4996A4A15664 /* public.svg */,
+				F42EA941448B4C069E194B43 /* resetlogo.svg */,
+				4A3DEAE51C1244CCBD19562D /* tabbar.svg */,
+				115DE03F448E425B84FD331C /* tabbar2.svg */,
+				DB81385044F44B0C92EE0A52 /* update.svg */,
+				48F944926B7B4F969B6FA401 /* verified.svg */,
+				FDD7985099394F439CC83733 /* default.ts */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3B4392A12AC88292D35C810B /* Pods-missioApp.debug.xcconfig */,
+				5709B34CF0A7D63546082F79 /* Pods-missioApp.release.xcconfig */,
+				5B7EB9410499542E8C5724F5 /* Pods-missioApp-missioAppTests.debug.xcconfig */,
+				89C6BE57DB24E9ADA2F236DE /* Pods-missioApp-missioAppTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		00E356ED1AD99517003FC87E /* missioAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "missioAppTests" */;
+			buildPhases = (
+				A55EABD7B0C7F3A422A6CC61 /* [CP] Check Pods Manifest.lock */,
+				00E356EA1AD99517003FC87E /* Sources */,
+				00E356EB1AD99517003FC87E /* Frameworks */,
+				00E356EC1AD99517003FC87E /* Resources */,
+				C59DA0FBD6956966B86A3779 /* [CP] Embed Pods Frameworks */,
+				F6A41C54EA430FDDC6A6ED99 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00E356F51AD99517003FC87E /* PBXTargetDependency */,
+			);
+			name = missioAppTests;
+			productName = missioAppTests;
+			productReference = 00E356EE1AD99517003FC87E /* missioAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		13B07F861A680F5B00A75B9A /* missioApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "missioApp" */;
+			buildPhases = (
+				F856A625DCB67A0133831721 /* [CP] Check Pods Manifest.lock */,
+				FD10A7F022414F080027D42C /* Start Packager */,
+				13B07F871A680F5B00A75B9A /* Sources */,
+				13B07F8C1A680F5B00A75B9A /* Frameworks */,
+				13B07F8E1A680F5B00A75B9A /* Resources */,
+				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+				00EEFC60759A1932668264C0 /* [CP] Embed Pods Frameworks */,
+				E235C05ADACE081382539298 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = missioApp;
+			productName = missioApp;
+			productReference = 13B07F961A680F5B00A75B9A /* missioApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83CBB9F71A601CBA00E9B192 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					00E356ED1AD99517003FC87E = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 13B07F861A680F5B00A75B9A;
+					};
+					13B07F861A680F5B00A75B9A = {
+						LastSwiftMigration = 1120;
+					};
+				};
+			};
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "missioApp" */;
+			compatibilityVersion = "Xcode 12.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 83CBB9F61A601CBA00E9B192;
+			productRefGroup = 83CBBA001A601CBA00E9B192 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13B07F861A680F5B00A75B9A /* missioApp */,
+				00E356ED1AD99517003FC87E /* missioAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00E356EC1AD99517003FC87E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8E1A680F5B00A75B9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
+				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				C9511651311B4FF19A017AED /* HelveticaNeue-Bold.otf in Resources */,
+				09AF255701EB4B798FE21F97 /* HelveticaNeue-Heavy.otf in Resources */,
+				2E07A14FCB204D6BAFA4200F /* HelveticaNeue-Light.otf in Resources */,
+				B122EAA8061E4C5B8B6B2DFA /* HelveticaNeue-Medium.otf in Resources */,
+				73AFE32014594D22BF158755 /* HelveticaNeue-Thin.otf in Resources */,
+				CC28B85DA38248DE9FEEA8FC /* HelveticaNeue-UltraLight.otf in Resources */,
+				C4A37547C56B4D478B139994 /* icons.ttf in Resources */,
+				039AF9717D9D474E8C47DBF8 /* Backarrow.svg in Resources */,
+				89A7043F75EB4554B0870A70 /* closeeye.svg in Resources */,
+				8A40FD5F533E4391A5492560 /* commentgrey.svg in Resources */,
+				0840D8E336814EEBBAAD260D /* commentstroke.svg in Resources */,
+				2DF13BA214964171A23F1E6A /* config.json in Resources */,
+				AF1E1CF9A5D547FC97167570 /* docu.svg in Resources */,
+				947F07A229BB414491551A4A /* eye.svg in Resources */,
+				49ACD77838C94125B858F52A /* handpray.svg in Resources */,
+				495D8BC080CD44749D0071E3 /* handraise.svg in Resources */,
+				7CAAE29AEB744953A0A4591D /* mail.svg in Resources */,
+				3A2E1C8A1B804D0E8AA33718 /* messanger.svg in Resources */,
+				EDE51C3CD11B4F9594ACE1FE /* outlinebill.svg in Resources */,
+				1AC2354B5ECE4F3EA672F846 /* paperclip.svg in Resources */,
+				9183E3EE8C99494CB60917CF /* person.svg in Resources */,
+				89B3ED54288C44D6B8EE5BD5 /* reply.svg in Resources */,
+				19CA2698D12844B589950B7E /* setting.svg in Resources */,
+				837E1D5C068E4DA586D1B8BC /* watch.svg in Resources */,
+				9F93F4D60D6F43C69F1FCAEE /* cardlogo.svg in Resources */,
+				44050B1AA07E4D0D9E968B34 /* Document.svg in Resources */,
+				BAC01C979F404521B6EBCDD4 /* Sentlogo.svg in Resources */,
+				6EF88B53F0D446B78A30E1CC /* Successlogo.svg in Resources */,
+				B52A816A11A544DB96916D31 /* user.svg in Resources */,
+				AC19C5D4A10D41E994714EFB /* Userlogo.svg in Resources */,
+				9DABA370F16746DDA6691786 /* avtardata.ts in Resources */,
+				A1E935A5F9D24F169450D0D0 /* carddata.tsx in Resources */,
+				A6BD6C7CB53D4DB9BFD55ECA /* chunk.ts in Resources */,
+				102603979D374177B2183A23 /* colors.ts in Resources */,
+				B6DF4BC56ABF4765B655F38E /* constants.ts in Resources */,
+				914D21BA10794FEC82F2378C /* Frame.svg in Resources */,
+				6634C01E41EF4CFAB909E380 /* add.svg in Resources */,
+				C5604EFAF8104F29B1F03B32 /* placeholder1.svg in Resources */,
+				6CECAC39A6FE44A3A9C99FB1 /* detail.svg in Resources */,
+				0604F5CF83E244008731EEAA /* heart.svg in Resources */,
+				C7768F0F64DF4DF9A3A3B466 /* icon-font.js in Resources */,
+				985D408ABFB543CE9FF5A2BE /* logo1.svg in Resources */,
+				4632D88365B442AEB83EA630 /* AddIcon.tsx in Resources */,
+				BF1469389AFC4D17B8DBCDD1 /* BellIcon.tsx in Resources */,
+				6C992A9FC481438982288B93 /* HomeIcon.tsx in Resources */,
+				5A8AB3762B134493B2CB26CD /* SearchIcon.tsx in Resources */,
+				4E971E0DC7C648F291FD3B5C /* SiteIcon.tsx in Resources */,
+				C1D4E435B5F34C3C9F1140DD /* Messege.svg in Resources */,
+				8132425A162F4A0C85380CA0 /* Publish.svg in Resources */,
+				D6A60BE0FFAB4EB391FC86C8 /* TabBarSVG.tsx in Resources */,
+				2C160DB5CC5844A3BBA6151B /* appLogo.svg in Resources */,
+				188474352F7C4A3C8AEE0E49 /* apple.svg in Resources */,
+				EB3A5C6BC85948AC97650424 /* avatar1.svg in Resources */,
+				3BB89828CD424E3AB339EA53 /* avatar2.svg in Resources */,
+				C68F78F11CEB41F7842A6D95 /* avatar3.svg in Resources */,
+				E3E0518370824757AF880FCF /* avatar4.svg in Resources */,
+				B773257907AE45D19AFD12E2 /* avatar5.svg in Resources */,
+				3FFE0AB30C8E4AFE8B512900 /* avatar6.svg in Resources */,
+				4C6F0599E68840C3BC82617F /* avatar7.svg in Resources */,
+				2C426CA0CCC84851B01EA1E9 /* avatar8.svg in Resources */,
+				29E8ABA819604BFFB0BB91AC /* avatar9.svg in Resources */,
+				315563E36DB84458B7000243 /* avatars.ts in Resources */,
+				DF0E4850AB044489A5467CC3 /* clock.svg in Resources */,
+				4BB6086F8E5D4292A57B1E8B /* delete.svg in Resources */,
+				3AFF3A4FCDFD4AAF95C45EB4 /* forgotlogo.svg in Resources */,
+				ED9CBFC8BB904B588AFAD99E /* gave.svg in Resources */,
+				166067FC475844DBA9FFB072 /* google.svg in Resources */,
+				6D2F2798C1534B9DB267D2FE /* identity.svg in Resources */,
+				E3DF435372464AACABFD2971 /* logo.svg in Resources */,
+				A30EC89B326548DFB7E63ECE /* placeholder.svg in Resources */,
+				01C4E0F1D51443D79B574DC5 /* private.svg in Resources */,
+				5468BA5A40AB45F0AE8C785F /* public.svg in Resources */,
+				F504792340F6483991ACE81C /* resetlogo.svg in Resources */,
+				0F966D58A9BA43AE8CC2099D /* tabbar.svg in Resources */,
+				6F67F1FDE6644F49938C637B /* tabbar2.svg in Resources */,
+				13A921647A14406AA2A43169 /* update.svg in Resources */,
+				CD26357F2E9F42649BD74141 /* verified.svg in Resources */,
+				21A06E886C6D4EF09EA9966A /* default.ts in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/.xcode.env.local",
+				"$(SRCROOT)/.xcode.env",
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nWITH_ENVIRONMENT=\"../node_modules/react-native/scripts/xcode/with-environment.sh\"\nREACT_NATIVE_XCODE=\"../node_modules/react-native/scripts/react-native-xcode.sh\"\n\n/bin/sh -c \"$WITH_ENVIRONMENT $REACT_NATIVE_XCODE\"\n";
+		};
+		00EEFC60759A1932668264C0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-missioApp/Pods-missioApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-missioApp/Pods-missioApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-missioApp/Pods-missioApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A55EABD7B0C7F3A422A6CC61 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-missioApp-missioAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C59DA0FBD6956966B86A3779 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-missioApp-missioAppTests/Pods-missioApp-missioAppTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-missioApp-missioAppTests/Pods-missioApp-missioAppTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-missioApp-missioAppTests/Pods-missioApp-missioAppTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E235C05ADACE081382539298 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-missioApp/Pods-missioApp-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-missioApp/Pods-missioApp-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-missioApp/Pods-missioApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F6A41C54EA430FDDC6A6ED99 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-missioApp-missioAppTests/Pods-missioApp-missioAppTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-missioApp-missioAppTests/Pods-missioApp-missioAppTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-missioApp-missioAppTests/Pods-missioApp-missioAppTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F856A625DCB67A0133831721 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-missioApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD10A7F022414F080027D42C /* Start Packager */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Start Packager";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export RCT_METRO_PORT=\"${RCT_METRO_PORT:=8081}\"\necho \"export RCT_METRO_PORT=${RCT_METRO_PORT}\" > \"${SRCROOT}/../node_modules/react-native/scripts/.packager.env\"\nif [ -z \"${RCT_NO_LAUNCH_PACKAGER+xxx}\" ] ; then\n  if nc -w 5 -z localhost ${RCT_METRO_PORT} ; then\n    if ! curl -s \"http://localhost:${RCT_METRO_PORT}/status\" | grep -q \"packager-status:running\" ; then\n      echo \"Port ${RCT_METRO_PORT} already in use, packager is either not running or not running correctly\"\n      exit 2\n    fi\n  else\n    open \"$SRCROOT/../node_modules/react-native/scripts/launchPackager.command\" || echo \"Can't start packager automatically\"\n  fi\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00E356EA1AD99517003FC87E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00E356F31AD99517003FC87E /* missioAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F871A680F5B00A75B9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */,
+				13B07FC11A68108700A75B9A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13B07F861A680F5B00A75B9A /* missioApp */;
+			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		00E356F61AD99517003FC87E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B7EB9410499542E8C5724F5 /* Pods-missioApp-missioAppTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = missioAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/missioApp.app/missioApp";
+			};
+			name = Debug;
+		};
+		00E356F71AD99517003FC87E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89C6BE57DB24E9ADA2F236DE /* Pods-missioApp-missioAppTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COPY_PHASE_STRIP = NO;
+				INFOPLIST_FILE = missioAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/missioApp.app/missioApp";
+			};
+			name = Release;
+		};
+		13B07F941A680F5B00A75B9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B4392A12AC88292D35C810B /* Pods-missioApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8XAPH65VCB;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = missioApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.missio;
+				PRODUCT_NAME = missioApp;
+				PROVISIONING_PROFILE_SPECIFIER = missio_appstore;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		13B07F951A680F5B00A75B9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5709B34CF0A7D63546082F79 /* Pods-missioApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8XAPH65VCB;
+				INFOPLIST_FILE = missioApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.missio;
+				PRODUCT_NAME = missioApp;
+				PROVISIONING_PROFILE_SPECIFIER = missio_appstore;
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		83CBBA201A601CBA00E9B192 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = i386;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/lib/swift,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(SDKROOT)/usr/lib/swift\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+					"-DFOLLY_NO_CONFIG",
+					"-DFOLLY_MOBILE=1",
+					"-DFOLLY_USE_LIBCPP=1",
+				);
+				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		83CBBA211A601CBA00E9B192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = i386;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/lib/swift,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(SDKROOT)/usr/lib/swift\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+					"-DFOLLY_NO_CONFIG",
+					"-DFOLLY_MOBILE=1",
+					"-DFOLLY_USE_LIBCPP=1",
+				);
+				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "missioAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00E356F61AD99517003FC87E /* Debug */,
+				00E356F71AD99517003FC87E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "missioApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13B07F941A680F5B00A75B9A /* Debug */,
+				13B07F951A680F5B00A75B9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "missioApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83CBBA201A601CBA00E9B192 /* Debug */,
+				83CBBA211A601CBA00E9B192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83CBB9F71A601CBA00E9B192 /* Project object */;
+}
