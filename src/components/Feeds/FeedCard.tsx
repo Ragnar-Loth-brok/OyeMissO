@@ -116,9 +116,7 @@ export default function FeedCard({
             entering={FadeInUp.springify()}
             style={styles.text}>
             {data.text.substring(0, 304)}...{' '}
-            <Text style={{color: colors.primaryBlue}} onPress={expand}>
-              Read more
-            </Text>
+            <Text style={{color: colors.primaryBlue}}>Read more</Text>
           </Animated.Text>
           {/* {expandText || data.text.length < 310 ? (
             <Animated.Text

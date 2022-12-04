@@ -1,6 +1,5 @@
 import React, {useCallback, useMemo} from 'react';
-import {StyleSheet, Text, View} from 'react-native';
-import {SafeAreaView} from 'react-native-safe-area-context';
+import {Platform, StatusBar, StyleSheet, View} from 'react-native';
 import {Image} from '@rneui/themed';
 import {
   widthPercentageToDP as wp,
@@ -15,7 +14,9 @@ import UserSite from '../../components/MySite/UserSite';
 import SiteTabBar from '../../components/MySite/SiteTabBar';
 
 import Animated, {
+  Extrapolation,
   interpolate,
+  Layout,
   useAnimatedScrollHandler,
   useAnimatedStyle,
   useSharedValue,
@@ -23,6 +24,8 @@ import Animated, {
 import {StackNavigationProp} from '@react-navigation/stack';
 
 const OpacityHeight = hp(30);
+const StatusBarHeight = StatusBar.currentHeight || 20;
+const viewMaxHeight = Platform.OS === 'ios' ? hp(90) : hp(100);
 
 export default function MySite() {
   const navigation = useNavigation<StackNavigationProp<any>>();
@@ -54,10 +57,12 @@ export default function MySite() {
     const opacityValue = interpolate(
       opacity.value,
       [0, OpacityHeight],
-      [0, 0.6],
+      [0, 0.4],
+      {extrapolateRight: Extrapolation.CLAMP},
     );
+
     return {
-      backgroundColor: `rgba(0, 0, 0,${opacityValue})`,
+      backgroundColor: `rgba(0, 0, 0, ${opacityValue})`,
     };
   }, [opacity.value]);
 
@@ -67,7 +72,8 @@ export default function MySite() {
   );
 
   return (
-    <SafeAreaView style={styles.container}>
+    <View style={styles.container}>
+      <StatusBar translucent backgroundColor="transparent" />
       <View>
         <Image
           resizeMode="cover"
@@ -83,12 +89,16 @@ export default function MySite() {
             <Placeholder1 style={{transform: [{scale: wp('0.34')}]}} />
           }
         />
-        <Animated.View style={imageTransViewStyles} />
+        <Animated.View
+          layout={Layout.springify()}
+          style={imageTransViewStyles}
+        />
       </View>
       <Animated.ScrollView
         showsVerticalScrollIndicator={false}
         onScroll={scrollHandler}>
         <Animated.View style={styles.imageTransView} />
+
         <UserSite
           navigateProfile={myProfileNavigation}
           navigateEdit={EditSite}
@@ -102,7 +112,7 @@ export default function MySite() {
           <SiteTabBar myPostNavigation={myPostNavigation} />
         </View>
       </Animated.ScrollView>
-    </SafeAreaView>
+    </View>
   );
 }
 
@@ -113,14 +123,16 @@ const styles = StyleSheet.create({
   },
   coverImage: {
     position: 'absolute',
-    top: 0,
+    top: -StatusBarHeight,
     height: hp(44),
     width: wp(100),
   },
   imageTransView: {
     width: wp(100),
-    height: hp(40),
+    height: hp(40) - StatusBarHeight,
     backgroundColor: 'rgba(0,0,0,0)',
   },
-  subcontainer: {maxHeight: hp(90)},
+  subcontainer: {
+    maxHeight: viewMaxHeight,
+  },
 });

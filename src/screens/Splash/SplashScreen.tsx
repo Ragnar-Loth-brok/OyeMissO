@@ -1,5 +1,5 @@
 import React, {useCallback} from 'react';
-import {StyleSheet, View} from 'react-native';
+import {StatusBar, StyleSheet, View} from 'react-native';
 import {SafeAreaView} from 'react-native-safe-area-context';
 import {useNavigation} from '@react-navigation/native';
 import {Text} from '@rneui/themed';
@@ -31,6 +31,10 @@ export default function SplashScreen() {
 
   return (
     <SafeAreaView style={styles.container}>
+      <StatusBar
+        barStyle="dark-content"
+        backgroundColor={colors.appBackground}
+      />
       <Animated.View entering={ZoomIn.springify()} style={{marginTop: hp(42)}}>
         <Logo style={{transform: [{scale: SCALE_FACTOR}]}} />
       </Animated.View>

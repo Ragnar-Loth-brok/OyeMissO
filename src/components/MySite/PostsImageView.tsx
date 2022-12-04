@@ -18,7 +18,7 @@ export default function PostsImageView({myPostNavigation}: Props) {
     <ScrollView
       nestedScrollEnabled
       showsVerticalScrollIndicator={false}
-      contentContainerStyle={{paddingBottom: hp(12)}}>
+      contentContainerStyle={{paddingBottom: hp(22)}}>
       <Pressable
         onPress={myPostNavigation}
         style={{

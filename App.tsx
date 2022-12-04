@@ -21,10 +21,6 @@ function App() {
   registerCustomIconType('custom-icon', Icon);
   return (
     <SafeAreaProvider>
-      <StatusBar
-        barStyle="dark-content"
-        backgroundColor={colors.appBackground}
-      />
       <Provider store={store}>
         <NavigationContainer>
           <RootNavigation />

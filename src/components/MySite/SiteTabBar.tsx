@@ -1,5 +1,5 @@
 import React, {useCallback, useState} from 'react';
-import {Pressable, StyleSheet, View} from 'react-native';
+import {Platform, Pressable, StyleSheet, View} from 'react-native';
 import {Icon} from '@rneui/themed';
 import {
   heightPercentageToDP as hp,
@@ -22,7 +22,7 @@ import SiteTabButton from './SiteTabButton';
 import SiteAbout from './SiteAbout';
 
 const WIDTH = wp(100);
-const HEIGHT = hp(85);
+const HEIGHT = Platform.OS === 'ios' ? hp(85) : hp(100);
 
 type Props = {
   myPostNavigation: () => void;
@@ -45,8 +45,6 @@ export default function SiteTabBar({myPostNavigation}: Props) {
 
   const layoutFunc = useCallback(
     (event: Event, id: number) => {
-      console.log(scrollViewHeights.value, id);
-
       if (scrollViewHeights.value.length > 2) {
         return null;
       } else if (scrollViewHeights.value.length === id) {
