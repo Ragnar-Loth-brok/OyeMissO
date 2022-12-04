@@ -28,8 +28,6 @@ export default function MySite() {
   const navigation = useNavigation<StackNavigationProp<any>>();
   const opacity = useSharedValue(0);
 
-  console.log(hp(100));
-
   const myPostNavigation = useCallback(() => {
     navigation.navigate('MyPosts');
   }, [navigation]);

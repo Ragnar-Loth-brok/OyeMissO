@@ -22,7 +22,7 @@ import SiteTabButton from './SiteTabButton';
 import SiteAbout from './SiteAbout';
 
 const WIDTH = wp(100);
-const HEIGHT = hp(80);
+const HEIGHT = hp(85);
 
 type Props = {
   myPostNavigation: () => void;
