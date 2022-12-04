@@ -4,16 +4,31 @@ import {CheckBox, Icon} from '@rneui/themed';
 import {heightPercentageToDP as hp} from 'react-native-responsive-screen';
 
 import colors from '../../assets/colors';
-import Animated, {Layout} from 'react-native-reanimated';
+import Animated, {
+  Layout,
+  useAnimatedStyle,
+  useSharedValue,
+  withSequence,
+  withSpring,
+} from 'react-native-reanimated';
+
+type Option = 1 | 0;
 
 type Props = {
-  id: number;
+  id: Option;
   selectedOption: number;
-  setOption: (id: number) => void;
+  setOption: (id: Option) => void;
 };
 
 export default function TickCheckbox({id, setOption, selectedOption}: Props) {
   const [check, setCheck] = React.useState(false);
+  const zoom = useSharedValue(1);
+
+  const zoomStyle = useAnimatedStyle(() => {
+    return {
+      transform: [{scale: zoom.value}],
+    };
+  }, []);
 
   const onPress = () => {
     setOption(id);
@@ -22,13 +37,17 @@ export default function TickCheckbox({id, setOption, selectedOption}: Props) {
   useEffect(() => {
     if (selectedOption === id) {
       setCheck(true);
+      zoom.value = withSequence(withSpring(1.2), withSpring(1));
     } else {
       setCheck(false);
+      zoom.value = 1;
     }
-  }, [selectedOption, id]);
+  }, [selectedOption, id, zoom]);
 
   return (
-    <Animated.View layout={Layout.duration(150)}>
+    <Animated.View
+      layout={Layout.duration(150)}
+      style={[zoomStyle, {alignSelf: 'flex-end'}]}>
       <CheckBox
         checked={check}
         onPress={onPress}
@@ -38,8 +57,8 @@ export default function TickCheckbox({id, setOption, selectedOption}: Props) {
           <Icon
             name="radio-button-unchecked"
             type="material"
-            color={colors.black}
-            size={hp('2.85')}
+            color={colors.strip}
+            size={hp('3.2')}
           />
         }
         // <Ionicons name="checkmark-circle-sharp" size={24} color="black" />
@@ -47,8 +66,8 @@ export default function TickCheckbox({id, setOption, selectedOption}: Props) {
           <Icon
             name="check-circle"
             type="material"
-            color={colors.black}
-            size={hp('2.85')}
+            color={colors.primaryDefault}
+            size={hp('3.2')}
           />
         }
       />

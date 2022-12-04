@@ -25,7 +25,6 @@ const styles = StyleSheet.create({
     borderStyle: 'dashed',
     borderWidth: 1.5,
     borderColor: colors.primary,
-    marginVertical: hp(5),
     justifyContent: 'center',
     alignItems: 'center',
   },
