@@ -1,4 +1,4 @@
-import {StyleSheet, View} from 'react-native';
+import {StyleSheet} from 'react-native';
 import React from 'react';
 import {Text, Image} from '@rneui/themed';
 import {
@@ -7,10 +7,13 @@ import {
 } from 'react-native-responsive-screen';
 import colors from '../../assets/colors';
 import constants from '../../assets/constants';
+import {ScrollView} from 'react-native-gesture-handler';
 
 export default function SiteAbout() {
   return (
-    <View style={styles.container}>
+    <ScrollView
+      showsVerticalScrollIndicator={false}
+      contentContainerStyle={styles.container}>
       <Text style={styles.heading}>We are an organization on a missio.</Text>
       <Image
         borderRadius={wp(4)}
@@ -24,7 +27,7 @@ export default function SiteAbout() {
         {constants.Message}
         {constants.Message}
       </Text>
-    </View>
+    </ScrollView>
   );
 }
 const styles = StyleSheet.create({
@@ -32,6 +35,7 @@ const styles = StyleSheet.create({
     width: wp(100),
     paddingHorizontal: wp(4),
     paddingVertical: hp(1),
+    paddingBottom: hp(10),
   },
   heading: {
     fontSize: wp(5.2),

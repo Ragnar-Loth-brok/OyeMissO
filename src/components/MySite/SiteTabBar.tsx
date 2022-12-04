@@ -1,12 +1,11 @@
 import React, {useCallback, useState} from 'react';
-import {Icon} from '@rneui/themed';
 import {Pressable, StyleSheet, View} from 'react-native';
+import {Icon} from '@rneui/themed';
 import {
   heightPercentageToDP as hp,
   widthPercentageToDP as wp,
 } from 'react-native-responsive-screen';
 import Animated, {
-  // runOnJS,
   runOnUI,
   scrollTo,
   useAnimatedRef,
@@ -29,6 +28,14 @@ type Props = {
   myPostNavigation: () => void;
 };
 
+type Event = {
+  nativeEvent: {
+    layout: {
+      height: number;
+    };
+  };
+};
+
 export default function SiteTabBar({myPostNavigation}: Props) {
   const scrollRef = useAnimatedRef<any>();
   const [index, setIndex] = useState(0);
@@ -36,35 +43,32 @@ export default function SiteTabBar({myPostNavigation}: Props) {
   const animateHeight = useSharedValue(HEIGHT);
   const scrollViewHeights = useSharedValue<any>([]);
 
-  const layoutFunc = useCallback((event, id) => {
-    console.log(scrollViewHeights.value, id);
+  const layoutFunc = useCallback(
+    (event: Event, id: number) => {
+      console.log(scrollViewHeights.value, id);
 
-    if (scrollViewHeights.value.length > 2) return null;
-    else if (scrollViewHeights.value.length === id) {
-      const {layout} = event.nativeEvent;
-
-      scrollViewHeights.value.push(layout.height);
-    }
-  }, []);
+      if (scrollViewHeights.value.length > 2) {
+        return null;
+      } else if (scrollViewHeights.value.length === id) {
+        const {layout} = event.nativeEvent;
+        scrollViewHeights.value.push(layout.height);
+      }
+    },
+    [scrollViewHeights.value],
+  );
 
   const heightChange = (value: number) => {
-    // console.log(scrollViewHeights.value);
-
     animateHeight.value = withDelay(
       15,
       withTiming(scrollViewHeights.value[value], {
         duration: 100,
       }),
     );
-    // animateHeight.value = withTiming(scrollViewHeights.value[value], {
-    //   duration: 100,
-    // });
   };
 
   const changeTab = (value: number) => {
     'worklet';
     scrollTo(scrollRef, WIDTH * value, 0, true);
-    // runOnJS(heightChange)(measured.height);
   };
 
   const onTabChange = (tabNumber: number) => {
@@ -148,10 +152,7 @@ export default function SiteTabBar({myPostNavigation}: Props) {
           <SiteTabButton title="World Map" dashedBorder={false} />
           <SiteTabButton title="T-shirts" dashedBorder={false} />
         </View>
-        <View
-          style={{paddingBottom: hp(15)}}
-          collapsable={false}
-          onLayout={event => layoutFunc(event, 2)}>
+        <View collapsable={false} onLayout={event => layoutFunc(event, 2)}>
           <SiteAbout />
         </View>
       </Animated.ScrollView>
